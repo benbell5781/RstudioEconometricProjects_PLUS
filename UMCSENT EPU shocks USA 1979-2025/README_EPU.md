@@ -63,7 +63,7 @@ Response of the monthly percentage change in consumer sentiment (percentage poin
 ## Repository structure
 
 ```
-epu-shocks-consumer-confidence/
+UMCSENT EPU shocks USA 1979-2025/
   README.md
   epu_consumer_confidence.R   # data download, transformations, shock construction, local projections, plot
   figures/                    # impulse response plot
