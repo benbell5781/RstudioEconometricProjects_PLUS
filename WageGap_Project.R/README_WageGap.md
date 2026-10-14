@@ -17,7 +17,7 @@ Tuition, living costs and student debt have risen steadily, which raises the que
 
 I use the American Community Survey from **IPUMS USA** (Ruggles et al., 2024), 2010 to 2024. The ACS draws a fresh sample each year and does not follow the same people, so this is a **pooled cross-section** and not a panel. That is why panel methods are not used.
 
-**The data are not included in this repository.** IPUMS terms of use do not allow redistribution of microdata, so no extract, person-level file or sample rows is committed here. To reproduce the analysis:
+**The data is not included in this repository.** IPUMS terms of use do not allow redistribution of microdata, so no extract, person-level file or sample rows is committed here. To reproduce the analysis:
 
 1. Register for free at https://usa.ipums.org and create your own ACS extract for 2010 to 2024.
 2. Select these variables: `YEAR`, `SERIAL`, `PERWT`, `SEX`, `AGE`, `EDUCD`, `EMPSTAT`, `IND`, `WKSWORK2`, `UHRSWORK`, `INCWAGE` and the CPI-adjusted wage `INCWAGE_CPIU_2010`.
@@ -95,9 +95,8 @@ Standard errors for the year-by-year estimates are about 0.006 to 0.007 in every
 
 ```
 WageGap_Project.R/
-  README.md
+  README_WageGap.md
   Wage_Gap_Project.R       # variable construction, regressions, robustness check, exports
-  output/                  # aggregated tables and figures written by the script
   data/                    # not included (see Data)
 ```
 
