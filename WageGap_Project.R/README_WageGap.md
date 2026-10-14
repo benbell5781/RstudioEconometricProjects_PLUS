@@ -94,10 +94,9 @@ Standard errors for the year-by-year estimates are about 0.006 to 0.007 in every
 ## Repository structure
 
 ```
-us-wage-premium-acs/
+WageGap_Project.R/
   README.md
   Wage_Gap_Project.R       # variable construction, regressions, robustness check, exports
-  Term_Paper.pdf           # the full paper [add if the course allows it]
   output/                  # aggregated tables and figures written by the script
   data/                    # not included (see Data)
 ```
@@ -116,7 +115,7 @@ R with the packages `data.table`, `dplyr`, `tidyr`, `ggplot2`, `fixest`, `broom`
 
 I designed the research question and specifications, wrote the regression and analysis code, and interpreted the results.
 
-**AI assistance:** Claude (Anthropic) was used in three ways, as stated in the script header. It helped restructure the original IPUMS extract into the slimmer CSV used here, helped with variable construction so that I did not misclassify coded variables, and helped write the debt-adjustment section (section 9) because I was unfamiliar with the relevant R tools. [Check that this matches what you declared to the course.]
+**AI assistance:** Claude (Anthropic) was used in three ways, as stated in the script header. It helped restructure the original IPUMS extract into the slimmer CSV used here, helped with variable construction so that I did not misclassify coded variables, and helped write the debt-adjustment section (section 9) because I was unfamiliar with the relevant R tools.
 
 ## References
 
