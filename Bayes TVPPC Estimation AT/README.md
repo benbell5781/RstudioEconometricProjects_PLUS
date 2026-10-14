@@ -96,7 +96,7 @@ With stochastic volatility, the coefficient paths are nearly flat, the 1999 Q1 a
 - **The extension changes more than volatility.** The TVP-SVD sampler differs from my baseline in more than stochastic volatility. By default it uses white-noise state evolution and a sparse-mixture shrinkage prior, which can flatten coefficient paths by itself. The disappearance of the shift therefore cannot be attributed to stochastic volatility alone. A cleaner test would add stochastic volatility to the baseline random-walk model.
 - **Data revisions.** The output gap is an estimated, revised series.
 
-## Repository structure
+## Folder structure
 
 ```
 Bayes TVPPC Estimation AT/
