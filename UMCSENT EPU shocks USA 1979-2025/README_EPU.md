@@ -60,7 +60,7 @@ Response of the monthly percentage change in consumer sentiment (percentage poin
 - **Specification.** The federal funds rate is used in levels and was not tested for stationarity. Results use one set of lags and one definition of the shock, and no robustness checks are reported.
 - **External validity.** US data and one specific media-based index, so results may not generalise to other countries or media environments.
 
-## Repository structure
+## Folder structure
 
 ```
 UMCSENT EPU shocks USA 1979-2025/
