@@ -91,7 +91,7 @@ Standard errors for the year-by-year estimates are about 0.006 to 0.007 in every
 - **Debt adjustment.** It applies national group averages to everyone and should be read as a sensitivity check only.
 - **Possible extensions:** heterogeneity by age, sex, race, region or industry, detailed occupational credentials and individual debt records.
 
-## Repository structure
+## Folder structure
 
 ```
 WageGap_Project.R/
