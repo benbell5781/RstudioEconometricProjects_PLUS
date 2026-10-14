@@ -116,12 +116,12 @@ R with the packages `eurostat`, `dplyr`, `zoo`, `readxl`, `MASS`, `ggplot2`, `re
 
 1. Save the output gap data to `data/AT_output_gap.xlsx`.
 2. Set the working directory to the repository root. The script currently uses a hard-coded `setwd()` path, so edit or remove it first.
-3. Run `Application_TVPPC.R` for the baseline results and the posterior probabilities.
-4. For the extension, download the TVP-SVD files into `external/` (see Credits) and run `[SV script name].R`.
+3. Run `TVPPC.R` for the baseline results and the posterior probabilities.
+4. For the extension, download the TVP-SVD files into `external/` (see Credits) and run `TVP_SV_extension.R`.
 
 ## Credits and authorship
 
-**Written by Ben Bell:** the data pipeline, the baseline TVP model, the Carter-Kohn Gibbs sampler, the three specifications, the posterior comparisons and all plots in `Application_TVPPC.R`.
+**Written by Ben Bell:** the data pipeline, the baseline TVP model, the Carter-Kohn Gibbs sampler, the three specifications, the posterior comparisons and all plots in `TVPPC.R` and `TVP_SV_extension.R`.
 
 **Adapted from other work:** the stochastic volatility extension uses an adapted version of the TVP-SVD estimator from the replication archive of Hauzenberger, Huber, Koop and Onorante (2021), available at https://github.com/fhuber7/replication-archive/tree/main/TVPSVD_replication. The files I used (`main_replication.R` and `tvpsvd_estim.R`) state in their header that they are a repackaged, modified extract of the authors' original replication package. I did not write that estimator. I applied it to the Austrian data. Please check the archive for its licence and use the authors' original code if you need an official version.
 
