@@ -66,14 +66,13 @@ Wald test for asymmetry (H0: symmetric pass-through):
 - **Lag selection.** AIC penalises extra oil lags heavily, which made it hard to visualise the dynamics. Adding lags did not materially change the conclusions.
 - **Scale of the plots.** Each coefficient panel uses its own y-axis, so differences in band width across countries partly reflect scaling and not only precision.
 
-## Repository structure
+## Folder structure
 
 ```
-oil-price-asymmetry-nardl/
-  README.md
-  Applied_Macro_Final_Code_group_3_.R   # data download, partial sums, NARDL models, Wald tests, diagnostics, plots
-  Presentation.pptx                     # slides [add if the group agrees]
-  output/                               # figures and CSV results written by the script
+NARDL_AssymTest_CPI_v_Crude/
+  README_OilAsymmetry.md
+  NARDL_AsymCrude.R                     # data download, partial sums, NARDL models, Wald tests, diagnostics, plots
+
 ```
 
 The script writes these files: `nardl_coefficient_plots.png`, `nardl_aic_profile.png`, `wald_asymmetry_results.csv`, `diagnostic_test_results.csv`, `selected_lags.csv` and `lag_coefficients.csv`.
@@ -91,9 +90,8 @@ R with the packages `fredr`, `dplyr`, `lubridate`, `dynlm`, `lmtest`, `sandwich`
 
 ## Authorship and tools
 
-This was a group project. [State which parts you wrote and which parts the group wrote together.]
+This was a group project. Research Question, Relevance and Literature Research (Silvan Schubert), Theory and Data (Karolin Mayer), Methodology and Analysis (Benjamin Bell), Literature Research, Evaluation and Conclusion (Fedir Maksymiuk).
 
-**AI assistance:** [State exactly where AI tools helped, for example "Claude (Anthropic) assisted with ... ". Delete this line if no AI tools were used.]
 
 ## References
 
